@@ -1,0 +1,12 @@
+.git
+assets
+node_modules
+.distignore
+.gitignore
+.idea
+composer.json
+composer.lock
+Makefile
+package.json
+package-lock.json
+webpack.config.js

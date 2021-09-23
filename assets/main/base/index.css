@@ -1,0 +1,17 @@
+@import '../variables.css';
+
+html {
+    background: var(--color-grey-lighter);
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+}
+
+body {
+    background: var(--color-white);
+    font-family: var(--font-sans);
+    color: var(--color-black);
+}
+
+a {}
+

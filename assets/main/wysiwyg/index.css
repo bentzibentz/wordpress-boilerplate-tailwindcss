@@ -1,0 +1,64 @@
+.wysiwyg {
+    display: flow-root;
+
+    & blockquote,
+    & h1,
+    & h2,
+    & h3,
+    & h4,
+    & h5,
+    & h6,
+    & p,
+    & ul,
+    & ol,
+    & pre,
+    & iframe,
+    & table,
+    & .responsive-iframe,
+    & .responsive-table {
+        margin: 0 0 1rem 0;
+    }
+
+    & ul ul,
+    & ul ol,
+    & ol ul,
+    & ol ol {
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    & .responsive-iframe {
+        & iframe {
+            margin: 0;
+        }
+    }
+
+    & .responsive-table {
+        & table {
+            margin: 0;
+        }
+    }
+
+    & sub,
+    & sup {
+        font-size: .5rem;
+    }
+
+    & sub {
+        vertical-align: sub;
+    }
+
+    & sup {
+        vertical-align: super;
+    }
+
+    & cite {
+        font-style: italic;
+    }
+
+    & blockquote {
+        border-left: 4px solid #e6e6e6;
+        padding: .5rem 1rem;
+    }
+}
