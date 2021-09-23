@@ -137,8 +137,8 @@ class ComposerScripts
         $locker = new Locker(
             $io,
             $lockFile,
-            $composer->getRepositoryManager(),
             $composer->getInstallationManager(),
+            $composer->getRepositoryManager(),
             $composerJson
         );
         $lockData = $locker->getLockData();
