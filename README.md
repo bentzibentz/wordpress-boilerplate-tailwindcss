@@ -21,7 +21,7 @@ Setup
 Create new project with
 
 ```bash
-composer create-project bentzibentz/wordpress-boilerplate my-project
+composer create-project bentzibentz/wordpress-boilerplate-tailwindcss my-project
 ```
 
 Webfonts
